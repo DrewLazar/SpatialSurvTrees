@@ -10,9 +10,9 @@ methods, scores them, and draws the recovery figure.
 | Design | Scripts | Condition |
 |---|---|---|
 | Degenerate | `sim_degenerate_*.R` | Covariates independent of location, `S ⊥ X` |
-| Two-zone | `sim_zperpx_*.R` | Exogeneity holds, `tpi` spatially structured |
-| Three-zone | `sim_threezone_*_v2.R` | Exogeneity, three nested zones |
-| Four-zone | `sim_fourzone_*_v2.R` | Exogeneity, four nested zones |
+| Two-zone | `sim_twozone_*.R` | Exogeneity holds, `tpi` spatially structured |
+| Three-zone | `sim_threezone_*.R` | Exogeneity, three nested zones |
+| Four-zone | `sim_fourzone_*.R` | Exogeneity, four nested zones |
 | Sweep | `sweep/` | Graded violation of exogeneity, 8 levels x 30 replicates |
 
 ## Common settings
